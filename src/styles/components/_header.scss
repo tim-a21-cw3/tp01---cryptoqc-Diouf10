@@ -1,0 +1,25 @@
+header{
+    margin: var(--spacing-md2) 0;
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul{
+            list-style: none;
+            display: flex;
+            align-items: center;
+
+            a{
+                padding: 0 var(--spacing-sm);
+            }
+        }
+
+        .btn_header{
+            padding: var(--spacing-md) var(--spacing-sm);
+            background-color: var(--color-button-header);
+            color: var(--color-white);
+            border-radius: 12px;
+        }
+    }
+}
