@@ -10,6 +10,19 @@ header{
             display: flex;
             align-items: center;
 
+            .connect{
+                font-weight: 600;
+                color: #081946;
+                font-size: 1rem;
+            }
+
+            li{
+                font-weight: 500;
+                font-size: 1rem;
+                color: #81848D;
+
+            }
+
             a{
                 padding: 0 var(--spacing-sm);
             }
