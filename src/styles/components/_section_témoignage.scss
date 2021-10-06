@@ -1,0 +1,66 @@
+.témoignage{
+    background-color: var(--color-white);
+
+    .wrapper{
+
+        .surtitre{
+            background: rgba(38,37,191,0.1);
+            border-radius: 24px;
+            font-size: 1rem;
+            display: inline-block;
+            padding: 10px var(--spacing-sm);
+            color: #2625BF;
+            margin-top: 80px;
+        }
+
+        .en-tête{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .btn-témoignage  {
+            text-align: center;
+            background: linear-gradient(106.32deg, #1A21BC -10.7%, #8B38DD 104.24%);
+            border-radius: 12px;
+            padding: 24px 32px;
+            color: var(--color-white);
+            display: inline-block;
+
+            img{
+                width: 7%;
+                margin: 0 var(--spacing-sm);
+            }
+        }
+
+        .btn-témoignage-2{
+            text-align: center;
+            background: linear-gradient(106.32deg, #1A21BC -10.7%, #8B38DD 104.24%);
+            border-radius: 12px;
+            padding: 24px 32px;
+            color: var(--color-white);
+            display: none;
+        }
+        .cards{
+            display: flex;
+
+            .card{
+                display: flex;
+                flex-direction: row;
+                justify-content:center;
+                align-items: flex-start;
+                padding: 40px;
+                filter: drop-shadow(0px 8px 24px rgba(8,25,70,0.08));
+                margin: var(--spacing-md2) var(--spacing-sm);
+                border-radius: 12px;
+
+
+
+
+
+            }
+
+        }
+
+    }
+}
