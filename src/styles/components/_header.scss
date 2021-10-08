@@ -1,6 +1,15 @@
 header{
     margin: var(--spacing-md2) 0;
 
+    img{
+        max-width: 100%;
+    }
+
+
+    .menu{
+        display: none;
+    }
+
     nav{
         display: flex;
         justify-content: space-between;
@@ -35,4 +44,19 @@ header{
             border-radius: 12px;
         }
     }
+
+}
+
+@media screen and (max-width: $breakpoint-sm) {
+header{
+    .menu{
+        display: block;
+    }
+    .wrapper{
+        ul{
+            display: none;
+        }
+    }
+}
+
 }

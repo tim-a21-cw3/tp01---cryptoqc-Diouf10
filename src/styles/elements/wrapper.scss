@@ -18,3 +18,15 @@
 .grid-center {
     grid-column: 2/3;
 }
+
+@media screen and (max-width: $breakpoint-sm) {
+    .wrapper{
+        max-width: 688px;
+    }
+}
+
+@media screen and (max-width: $breakpoint-xs){
+    .wrapper{
+        max-width: 335px;
+    }
+}
