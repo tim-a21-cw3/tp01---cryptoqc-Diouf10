@@ -91,3 +91,22 @@
 }
 
 }
+
+@media screen and (max-width: $breakpoint-sm){
+    .hero{
+        .wrapper{
+            display: block;
+            h1{
+                font-size: 3rem;
+            }
+            p{
+                font-size: 1.25rem;
+                margin: 40px 0;
+            }
+
+        .banniere{
+            padding: var(--spacing-md2) 0;
+        }
+        }
+    }
+}
